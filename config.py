@@ -22,7 +22,7 @@ ALS_FACTORS = 128
 ALS_ITERATIONS = 20
 ALS_REGULARIZATION = 0.01
 ALS_ALPHA = 10.0               # confidence = 1 + alpha * rating
-RANKER_USER_SAMPLE = 40000     # users sampled for ranker training (8 GB limit)
+RANKER_USER_SAMPLE = 20000     # users sampled for ranker training (8 GB limit)
 EVAL_USER_SAMPLE = 5000        # test users evaluated
 GENOME_TOP_TAGS = 20
 BAYES_MIN_COUNT = 25           # shrinkage prior count for item avg rating

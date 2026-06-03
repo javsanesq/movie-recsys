@@ -1,0 +1,44 @@
+{
+  "n_users_evaluated": 3646,
+  "models": {
+    "popularity": {
+      "ndcg@5": 0.0804,
+      "ndcg@10": 0.0724,
+      "recall@10": 0.0285,
+      "precision@10": 0.0614,
+      "map@10": 0.0355,
+      "coverage@10": 0.0155,
+      "personalization@10": 0.8345
+    },
+    "als_only": {
+      "ndcg@5": 0.0656,
+      "ndcg@10": 0.0662,
+      "recall@10": 0.0291,
+      "precision@10": 0.0621,
+      "map@10": 0.0291,
+      "coverage@10": 0.2161,
+      "personalization@10": 0.9958
+    },
+    "als_lgbm": {
+      "ndcg@5": 0.123,
+      "ndcg@10": 0.1148,
+      "recall@10": 0.0495,
+      "precision@10": 0.0991,
+      "map@10": 0.0589,
+      "coverage@10": 0.0695,
+      "personalization@10": 0.9621
+    }
+  },
+  "feature_importance": {
+    "n_ratings": 0.3545,
+    "genre_match": 0.1113,
+    "avg_rating": 0.0661,
+    "days_since_last": 0.063,
+    "user_item_era_diff": 0.0395,
+    "u_n_ratings": 0.0318,
+    "genre_affinity_IMAX": 0.0223,
+    "genre_affinity_Crime": 0.0211,
+    "genre_affinity_Adventure": 0.012,
+    "genre_affinity_Action": 0.0112
+  }
+}
