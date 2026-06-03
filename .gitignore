@@ -9,3 +9,5 @@ artifacts/features/
 ml-25m.zip
 # keep metrics.json (committed)
 !artifacts/metrics.json
+
+docker-compose.override.yml

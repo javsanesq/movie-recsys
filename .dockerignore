@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.pytest_cache/
+.claude/
+data/
+docs/
+output/
+tests/
+samples/
+# large training-only cache — never bake into the image
+artifacts/models/_ranker_cache.npz
+*.log
+.DS_Store
